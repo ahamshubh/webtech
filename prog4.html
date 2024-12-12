@@ -1,0 +1,63 @@
+<html>
+  <head>
+    <title>registration form</title>
+    </head>
+  <style>
+    table{
+    border-collapse:collapse;
+    }
+    th,td{
+padding:10px;
+    border:1px solid black;
+    }
+    input[type="submit"]{
+    background-color:green;
+    color:white;
+    padding: 10px 20px;
+    border: none;
+    border-radius:100px;
+    }
+    input[type="name"],input[type="password"],input[type="email"],select{
+    margin:10px;
+    width:90%;
+    padding:5px;
+    }
+    input[type="submit"]:hover{
+    background-color:orange;
+    }
+    </style>
+  </head>
+<body>
+  <form>
+    <table>
+      <tr>
+      <th>Field</th>
+      <th>Input</th>
+      </tr>
+      <tr>
+      <td>Name:</td>
+      <td><input type="name" name="name" required></td>
+        </tr>
+        <tr>
+          <td>Email:</td>
+          <td><input type="email" name="Email" required></td>
+            </tr>
+          <tr>
+            <td>Password:</td>
+            <td><input type="password" name="password" required></td>
+              </tr>
+            <tr>
+              <td>Country:</td>
+              <td><select name="county">
+                <option value="">Select a Country</option>
+                <option value="USA">USA</option>
+                <option value="India">India</option>
+                <option value="others">other</option>
+                </select>
+                <tr>
+                  <td colspan="2"><input type="submit" value="register">
+                    </table>
+                </form>
+              </body>
+            </html>
+            
